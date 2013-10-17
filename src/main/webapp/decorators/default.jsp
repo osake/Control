@@ -10,10 +10,10 @@
     <meta http-equiv="Expires" content="0"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <link rel="shortcut icon" href="${ctx}/images/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="${ctx}/webjars/bootstrap/1.0-SNAPSHOT/css/bootstrap.min.css">
+    <link rel="stylesheet" href="${ctx}/webjars/bootstrap/2.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="${ctx}/styles/app.css">
     <script type="text/javascript" src="${ctx}/webjars/jquery/1.8.2/jquery.min.js"></script>
-    <script type="text/javascript" src="${ctx}/webjars/bootstrap/1.0-SNAPSHOT/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="${ctx}/webjars/bootstrap/2.2.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="${ctx}/scripts/app.js"></script>
     <decorator:head/>
 </head>

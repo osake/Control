@@ -5,9 +5,9 @@ import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.appfuse.model.User;
-import org.appfuse.service.UserManager;
-import org.appfuse.service.UserExistsException;
+import com.axxiscomputo.model.User;
+import com.axxiscomputo.service.UserManager;
+import com.axxiscomputo.service.UserExistsException;
 
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;

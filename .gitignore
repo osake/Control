@@ -2,3 +2,5 @@
 .DS_Store
 *.log
 target
+.idea
+*.iml
