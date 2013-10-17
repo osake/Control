@@ -72,5 +72,30 @@
             <result name="input">userForm.jsp</result>
             <result name="success" type="redirectAction">users</result>
         </action>
+
+        <!-- Lista de Manuales -->
+        <action name="manuales" class="com.axxiscomputo.webapp.action.ManualAction" method="list">
+            <result name="success">manualList.jsp</result>
+            <result name="input">manualList.jsp</result>
+        </action>
+
+        <!-- Editar Manual -->
+        <action name="editManual" class="com.axxiscomputo.webapp.action.ManualAction" method="edit">
+            <result name="success">manualForm.jsp</result>
+            <result name="input">manualList.jsp</result>
+        </action>
+
+        <!-- Save User -->
+        <action name="saveManual" class="com.axxiscomputo.webapp.action.ManualAction">
+            <result name="cancel" type="redirectAction">manuales</result>
+            <result name="delete" type="redirectAction">manuales</result>
+            <result name="input">manualForm.jsp</result>
+            <result name="success" type="chain">saveManualWithValidation</result>
+        </action>
+
+        <action name="saveManualWithValidation" class="com.axxiscomputo.webapp.action.ManualAction" method="save">
+            <result name="input">manualForm.jsp</result>
+            <result name="success" type="redirectAction">manuales</result>
+        </action>
     </package>
 </struts>

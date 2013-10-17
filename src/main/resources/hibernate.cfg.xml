@@ -8,5 +8,6 @@
     <session-factory>
         <mapping class="com.axxiscomputo.model.User"/>
         <mapping class="com.axxiscomputo.model.Role"/>
+        <mapping class="com.axxiscomputo.model.Manual"/>
     </session-factory>
 </hibernate-configuration>

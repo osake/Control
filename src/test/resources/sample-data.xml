@@ -90,4 +90,34 @@
             <value description="role_id">-1</value>
         </row>
     </table>
+    <!--Manual-START-->
+    <table name="manuales">
+        <column>id</column>
+        <column>idioma</column>
+        <column>tags</column>
+        <column>titulo</column>
+        <column>ubicacion</column>
+    <row>
+        <value description="id">-1</value>
+        <value description="idioma">JjWzGbBsRyZjTxLqZqRhDkVfCmJnAk</value>
+        <value description="tags">ElFyCjZgPwZpPjIcZxAlJxDkCuEfXiJrHyHiSpRrTgKfGiHyBeXlWtIsDsIqIfLtFgXgEzGlEnAoWlCaQlVqPgUmJoDyJsFlWzJaJpOvSmMdUgEmJwBiKqWqVbQoEfAdJfJmRtPrKuRwEzCvNzQlZt</value>
+        <value description="titulo">GgEyRfWfJbXpQvRjHfGrGgGcJkYtXhHfXlRqXaBcMwUzQePuEdQvMqGdGzKnMfQqCsRpOxXcOdCaSlMqPsSzNtOtBmCoMxQnJcCn</value>
+        <value description="ubicacion">YkEjVjEfJvHmClGdPnQdNdOgYpKyHzMgRiPpIkSyWcIqYwMnTeXhIvPoPvKrAxWmThPpNnUiBlDsYiLq</value>
+    </row>
+    <row>
+        <value description="id">-2</value>
+        <value description="idioma">ViIfHqSmSeFqKtLyHsFdLnJmLkGxRn</value>
+        <value description="tags">MjJuMrEoOyHkKnBcWxYxDiYhZvLbMvTwZsFgTrMxUvOvDqZwKuIsEzDkTeCqMmLgGnYiBzVgDkUaRzDhWaVuXhLgHfSeGnNfZjAuLyAgRaYlDuRwChOaPsIxMfBmJvIzNbPgCmCjIqDvRzVaLvTdHh</value>
+        <value description="titulo">VbXyRkWcIdSaGwUnYcWfZhUbQmTeCtHyYfXdLiBaIjZbGmGmRbUyHdViRiMbOmSgNcRpHyXiSmJqTuZdVuPuZqZhWdAnLfLkFlUg</value>
+        <value description="ubicacion">MbHoJpGtVxHoIlNnJcIcUfHiPbHjXwUvTcZpAsVvSiPpYxEoNhZnHnRrYdKeZeDiYjGrWoLiQuVjDeUn</value>
+    </row>
+    <row>
+        <value description="id">-3</value>
+        <value description="idioma">BaZfXgDcFqUxNrMiVwNuMmMwQrLbRx</value>
+        <value description="tags">FrYbWwEeMnYlKkYzAwEjGbVtDiQmEyZdUwUdYxQzCtWsFnMzBcDmKmRdZpXrMvPqZqJjOmKyUfFtNpVzGyRfPcDnBgQuAmRwMlDxPlYrWpPgTcQdMfMtZyReApXnJoAvOlHsMuVnOkAsGnWgJlBlFv</value>
+        <value description="titulo">ZsUySoFnFyKdYtEiGqOxDcMtXsByAxQaMyCdKeLeAuIoOhKkHzZfQtLgBpCxQrRbXgRkIiSyDuJtSmOfVvKxGqEaNeOxRwRiEaJh</value>
+        <value description="ubicacion">SzIyYpZaWiFcGiHiMpYgFtNqMcUgJpPzUqDyUaHdVtIbZlPxBfBuIjRxHxEgGwIwCdWpLaDgYxPxTaPw</value>
+    </row>
+    </table>
+    <!--Manual-END-->
 </dataset>

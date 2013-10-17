@@ -13,5 +13,15 @@
 
     <!-- Add new DAOs here -->
 
+    <!--ManualManager-START-->
+    <bean id="manualManager" class="com.axxiscomputo.service.impl.GenericManagerImpl">
+        <constructor-arg>
+            <bean class="com.axxiscomputo.dao.hibernate.GenericDaoHibernate">
+                <constructor-arg value="com.axxiscomputo.model.Manual"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    <!--ManualManager-END-->
+
     <!-- Add new Managers here -->
 </beans>

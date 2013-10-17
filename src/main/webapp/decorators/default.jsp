@@ -34,7 +34,11 @@
                     <ul class="nav">
                         <li><a href="${ctx}/" title="Home">Home</a></li>
                         <li><a href="${ctx}/users" title="View Users">Users</a></li>
-                        <!-- Add new menu items here -->
+                        <!--Manual-START-->
+                    <li><a href="${ctx}/manuales" title="Ver Manuales"><span>Manuales</span></a></li>
+                    <!--Manual-END-->
+                    <!-- Add new menu items here -->
+
                     </ul>
                 </div>
                 <script type="text/javascript">
@@ -52,29 +56,12 @@
 
                 <decorator:getProperty property="page.underground"/>
             </div>
-            <div class="span2">
-                <div id="branding">
-                    <a href="http://appfuse.org" title="AppFuse - eliminating project startup time">
-                        <img src="${ctx}/images/powered-by-appfuse.gif" width="203" height="75" alt="AppFuse"/></a>
-                </div>
-                <h3>Resources</h3>
-
-                <p>The following is a list of resources that will make <a href="http://springframework.org">Spring</a> infinitely easier to use.</p>
-
-                <ul class="glassList">
-                    <li><a href="http://static.springsource.org/spring/docs/3.2.x/spring-framework-reference/html/">Spring 3.2 Docs</a></li>
-                    <li><a href="http://static.springsource.org/spring/docs/3.2.x/javadoc-api/">Spring 3.2 API</a></li>
-                    <li><a href="http://www.amazon.com/s/ref=nb_ss?url=search-alias%3Daps&field-keywords=spring+framework">Spring Books</a></li>
-                    <li><a href="http://forum.springframework.org/">Spring Forums</a></li>
-                </ul>
-
-            </div>
         </div>
     </div>
 
     <div id="footer">
         <p>
-            Created by <a href="http://appfuse.org">AppFuse</a>.
+            Created by <a href="#">Axxis Computo</a>.
         </p>
     </div>
 </body>
